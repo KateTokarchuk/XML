@@ -1,1 +1,10 @@
-
+{"Title": "The name of one of the extra products in the generated order is not displayed correctly",
+ "Preconditions": "The user is in the application Burger_shack_with_bugs (CLI)",
+ "Steps": "1. Select one of the products (standard/double/chicken/vegan) by pressing letter S / D / C / V",
+ "2. To press the button Enter to confirm step 1",
+ "3. Select More vegetables by pressing the letter Y and press Enter to confirm",
+ "4. Select Extra cheese by pressing the letter Y and press Enter to confirm",
+ "5. Select Extra sauce by pressing the letter Y and press Enter to confirm",
+ "6.Compare line 2 from block 1 with line 2 from block 2 (See Attach в„–11.1)",
+ "7. Compare line 3 from block 1 with line 3 from block 2 (See Attach в„–11.2)",
+ "Actual Result": "The names of the products in the first and second blocks namely in the second and third lines do not match"}
